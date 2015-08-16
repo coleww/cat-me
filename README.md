@@ -31,4 +31,20 @@ catMe('nyan') // => returns a nyan cat
    ☆ ╰┳┳━━┳┳╯   ☆
 ```
 
+### CLI
 
+`npm install cat-me -g`
+
+```
+C A T   M E
+print a cat to your console
+=^.^=
+
+Options:
+  -c, --cats  get list of cat names
+  -h, --help  Show help                                                [boolean]
+
+Examples:
+  catMe
+  catMe nyan
+```
