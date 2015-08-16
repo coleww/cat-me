@@ -1,10 +1,34 @@
 cat-me
 ----------------
 
+returns some ASCII cats
+
 [![NPM](https://nodei.co/npm/cat-me.png)](https://nodei.co/npm/cat-me/)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
-[![Build Status](https://secure.travis-ci.org/YR_TRAVIS_USER_NAME/cat-me.png)](http://travis-ci.org/YR_TRAVIS_USER_NAME/cat-me)
+[![Build Status](https://secure.travis-ci.org/coleww/cat-me.png)](http://travis-ci.org/coleww/cat-me)
 
 ### EXAMPLE
 
-### API
+```javascript
+var catMe = require('cat-me')
+
+catMe() // => returns a random cat
+  /\ ___ /\
+ (  o   o  )
+  \  >#<  /
+  /       \
+ /         \       ^
+|           |     //
+ \         /    //
+  ///  ///   --
+catMe('nyan') // => returns a nyan cat
+  ☆    ☆  ☆
+┈┈┈┈ ╭━━━━━━╮  ☆
+┈☆ ┈┈┃╳╳╳▕╲▂▂╱▏
+┈┈☆ ┈┃╳╳╳▕▏▍▕▍▏
+┈┈ ╰━┫╳╳╳▕▏╰┻╯▏
+☆ ┈┈┈┃╳╳╳╳╲▂▂╱
+   ☆ ╰┳┳━━┳┳╯   ☆
+```
+
+

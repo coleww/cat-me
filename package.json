@@ -13,6 +13,9 @@
   "dependencies": {
     "yargs": "^3.18.0"
   },
+  "bin": {
+      "catMe": "cmd.js"
+  },
   "license": "MIT",
   "author": "Cole Willsea <coleww@gmail.com> (http://colewillsea.com/)"
 }
