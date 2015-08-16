@@ -1,6 +1,6 @@
 {
   "name": "cat-me",
-  "description": "Put A Description Here!",
+  "description": "ASCII cats all up in your node.js",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -14,8 +14,21 @@
     "yargs": "^3.18.0"
   },
   "bin": {
-      "catMe": "cmd.js"
+    "catMe": "cmd.js"
   },
   "license": "MIT",
-  "author": "Cole Willsea <coleww@gmail.com> (http://colewillsea.com/)"
+  "author": "Cole Willsea <coleww@gmail.com> (http://colewillsea.com/)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coleww/cat-me.git"
+  },
+  "keywords": [
+    "cats",
+    "ascii",
+    "art"
+  ],
+  "bugs": {
+    "url": "https://github.com/coleww/cat-me/issues"
+  },
+  "homepage": "https://github.com/coleww/cat-me"
 }
