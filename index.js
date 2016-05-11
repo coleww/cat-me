@@ -1,8 +1,9 @@
 var cats = require('./cats.json')
-
-for (var name in cats) cats[name] = cats[name].join('\n')
-
 var catNames = Object.keys(cats)
+
+catNames.forEach(function (name) {
+  cats[name] = cats[name].join('\n')
+})
 
 module.exports = function (cat) {
   cat = cat || catNames[~~(Math.random() * catNames.length)]
