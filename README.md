@@ -1,15 +1,13 @@
 cat-me
 ----------------
 
+# This package is no longer maintained
+
 Returns some ASCII cats. You know, for spicing up your command line. With cats.
 
 [![NPM](https://nodei.co/npm/cat-me.png)](https://nodei.co/npm/cat-me/)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 [![Build Status](https://secure.travis-ci.org/coleww/cat-me.png)](http://travis-ci.org/coleww/cat-me)
-
-### CONTRIBUTING
-
-Add a cat with a clever name to cats.js and make sure it is properly formatted too because my friend Travis personally hand checks every pull request to this repository.
 
 ### EXAMPLE
 
